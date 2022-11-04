@@ -15,7 +15,7 @@ django-debug-toolbar==3.6.0
 
 # django-filter==22.1
 
-# django-jazzmin==2.5.0
+django-jazzmin==2.5.0
 
 
 # django-silk==5.0.1
