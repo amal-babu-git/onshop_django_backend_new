@@ -39,4 +39,4 @@ djangorestframework==3.13.1
 
 # social-auth-app-django==4.0.0
 
-# social-auth-core==4.3.0; python_version >= '3.6'
+social-auth-core==4.3.0; python_version >= '3.6'
