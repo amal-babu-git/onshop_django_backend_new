@@ -2,7 +2,7 @@ Django>=4.1,<4.6
 psycopg2>=2.9.1,<2.9.4
 uWSGI>=2.0.19.1,<2.1
 
-# braintree==4.16.0
+braintree==4.16.0
 
 # celery==5.2.7
 
