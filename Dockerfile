@@ -15,7 +15,6 @@ RUN python -m venv /py && \
     apk add --update --no-cache --virtual .tmp-deps \
     build-base postgresql-dev musl-dev linux-headers && \
     /py/bin/pip install -r /requirements.txt && \
-    /py/bin/pip install ffi && \
     /py/bin/pip install cffi && \
     /py/bin/pip install djoser && \
     apk del .tmp-deps && \
