@@ -23,6 +23,8 @@ RUN python -m venv /py && \
     chmod -R 755 /vol && \
     chmod -R +x /scripts
 
+RUN /py/bin/pip install djoser
+
 ENV PATH="/scripts:/py/bin:$PATH"
 
 USER app
