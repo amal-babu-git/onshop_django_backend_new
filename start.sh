@@ -1,1 +1,1 @@
-git pull origin && docker-compose -f docker-compose-deploy.yml run --rm app sh -c "pip install --upgrade pip   && pip install wheel &&  pip install djoser --use-pep517"
+git pull origin && docker-compose -f docker-compose-deploy.yml down && docker-compose -f docker-compose-deploy.yml build && docker-compose -f docker-compose-deploy.yml run --rm app sh -c "pip install --upgrade pip   && pip install wheel &&  pip install djoser --use-pep517"
