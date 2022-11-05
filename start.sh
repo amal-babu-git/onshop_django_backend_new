@@ -1,1 +1,1 @@
-git pull origin && git branch && docker-compose -f docker-compose-deploy.yml down && docker-compose -f docker-compose-deploy.yml build && docker-compose -f docker-compose-deploy.yml run --rm app sh -c "django --version"
+git pull origin && git branch && docker-compose -f docker-compose-deploy.yml down && docker-compose -f docker-compose-deploy.yml build && docker-compose -f docker-compose-deploy.yml run --rm app sh -c "ls -la"
