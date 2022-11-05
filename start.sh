@@ -1,1 +1,1 @@
-git pull origin && git branch && docker-compose -f docker-compose-deploy.yml down && docker-compose -f docker-compose-deploy.yml build && docker-compose -f docker-compose-deploy.yml run --rm app sh -c "pip --version && pip uninstall djoser && pip install djoser"
+git pull origin && git branch && docker-compose -f docker-compose-deploy.yml down && docker-compose -f docker-compose-deploy.yml build && docker-compose -f docker-compose-deploy.yml run --rm app sh -c "pip --version"
